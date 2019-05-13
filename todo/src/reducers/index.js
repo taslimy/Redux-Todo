@@ -1,7 +1,7 @@
 import { ADD_TODO } from "../actions";
 
 const initialState = {
-  todos: [],
+  todos: ['Eat', 'Sleep', 'Repeat'],
   completed: false
 };
 

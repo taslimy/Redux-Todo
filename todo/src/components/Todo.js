@@ -1,3 +1,6 @@
 import React from "react";
 
-export default props => <ul><li>{props.todo}</li></ul>;
+export default props => 
+<div role="list" className="ui list">
+<div role="listitem" className="item">{props.todo}</div>
+</div>;
