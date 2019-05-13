@@ -1,3 +1,3 @@
 import React from "react";
 
-export default props => <h4>{props.movie}</h4>;
+export default props => <ul><li>{props.todo}</li></ul>;
